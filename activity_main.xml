@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iis5.vibgyor.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/red"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="RED"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/orange"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:text="ORANGE"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/yellow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="YELLOW"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/green"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:text="GREEN"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/blue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="BLUE"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/indigo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="INDIGO"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/violet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".14"
+            android:background="?android:attr/colorPrimary"
+            android:gravity="center"
+            android:text="VIOLET"
+            android:textColor="#000" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
